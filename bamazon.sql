@@ -10,11 +10,11 @@ CREATE TABLE Products(
     DepartmentName VARCHAR(100) NOT NULL,
     Price DECIMAL(10,2) NOT NULL,
     StockQuantity INT(10) NOT NULL,
-    primary key(ItemID)
+    PRIMARY KEY(ItemID)
 );
 
 /* Select (all) from Products */
-select * from Products;
+SELECT * FROM Products;
 
 /* Insert mock products to table */
 INSERT INTO Products(ProductName, DepartmentName, Price, StockQuantity)
@@ -28,4 +28,6 @@ Values
 ("hand wraps". "sports", 10.99, 35),
 ("dog food", "pets", 19.99, 40),
 ("cat litter", "pets", 15.99, 20),
-("slippers", "clothing", 19.99, 25);
+("slippers", "clothing", 19.99, 25),
+("hoodie", "clothing", 24.99, 25),
+("nike sb", "clothing", 99.99, 20);
