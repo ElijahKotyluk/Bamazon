@@ -52,7 +52,7 @@ const inventory = () => {
 
     const listInventory = () => {
         // Query Bamazon database for (all) rows in Products table.
-        connection.query("SELECT * FROM Products", function (err, res) {
+        connection.query("SELECT * FROM Products", (err, res) => {
             // Loop through Products table and push items to table array.
             for (let i = 0; i < res.length; i++) {
 
