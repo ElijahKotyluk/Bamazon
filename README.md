@@ -2,7 +2,7 @@
 
 Welcome to Bamazon! This is an Amazon-like storefront built with MySQL and Node.js.
 Video Demo of Working App
-https://www.youtube.com/watch?v=IPQ8tBgZr3g&feature=youtu.be
+https://youtu.be/opQn1MpxkSs
 
 Getting Started
 To get started on this project, follow the installations instructions below.
